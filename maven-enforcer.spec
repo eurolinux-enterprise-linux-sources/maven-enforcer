@@ -1,6 +1,6 @@
 Name:           maven-enforcer
 Version:        1.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven Enforcer
 License:        ASL 2.0
 URL:            http://maven.apache.org/enforcer
@@ -84,6 +84,9 @@ sed -e "s|<artifactId>plexus-maven-plugin</artifactId>|<artifactId>plexus-compon
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-8
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.2-7
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
